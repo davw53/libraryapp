@@ -40,7 +40,7 @@ def myClick(mtype):
         messagebox.showinfo("Successfully added", "You have added the game: " + e.get())
     db.insert(new_dict)
     
-#testing the database entries to look at them
+#shows the database entries to look at them
 def libraryclick():
     media = Query()
     if (radMedia.get() == "Book"):
